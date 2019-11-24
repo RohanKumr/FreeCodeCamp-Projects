@@ -1,0 +1,117 @@
+ body{
+    width:100vw;
+    height:100vh;
+  transition: 1s ease-in-out;
+  }
+#quote-box{
+  opacity:0.9;
+  background-color:white;
+  border-radius:6pxa
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size:1.75em;
+  padding:40px;
+  position: absolute;
+  max-height:90vh;
+  min-width:768px;
+  max-width:95vw;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.text{
+  opacity:1;
+    transition:1s;
+  font-family:Raleway, sans-serif;
+}
+#author{
+  font-family: 'Poiret One', cursive;
+  text-align:right;
+}
+#new-quote{
+ transition: 1s ease-in-out;
+  background-color:black;
+  padding:10px; 
+  border:0px ;
+  border-radius:5px;
+  font-size:0.75em;
+float:right;
+  outline:0
+}
+#new-quote:focus{
+  oultine:none
+}
+#tweet-quote{
+  float:left;
+}
+.fa-twitter-square{
+transition: 1s ease-in-out;
+   font-size:1.75em;
+}
+.fa-twitter-square :hover{
+  opacity: 0.9;
+}
+#new-quote:hover{
+  transition: 1s ease-in-out;
+  opacity: 0.9;
+}
+#madeby{
+  font-family: 'Poiret One', cursive;
+  border-radius:6px;
+  color:white;
+  font-size:1em;
+  padding:6px;
+  position: absolute;
+  z-index: 15;
+  top: 97%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+transition: 1s ease-in-out;
+  }
+
+
+
+@media screen and (max-width: 840px) {
+  body{
+    width:100vw;
+    height:100vh;
+    transition: 1s ease-in-out;
+  }
+  #quote-box{
+  background-color:white;
+  border-radius:6px ;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size:1.2em;
+  padding:30px 15px 30px 15px ;
+  position: absolute;
+  max-height:90vh;
+  min-height:30vh;
+  max-width:95vw;
+  min-width:95vw;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+#madeby{
+  font-family: 'Poiret One', cursive;
+  border-radius:6px;
+  color:white;
+  font-size:1em;
+  padding:6px;
+  position: absolute;
+  z-index: 15;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+ transition: 1s ease-in-out;
+  }
+  .fa-twitter-square{
+  
+   font-size:2.3em;
+}
+}
